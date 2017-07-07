@@ -11,7 +11,7 @@ import com.kodecamp.validation.api.ValidationResult.Status;
 
 /*
  * This class is implementation of IValidator which is used to check whether any string 
- * is empty or not.
+ * contain special character.
  * This class also wraps other implementation of IValidator through its constructor for 
  * multiple validation purpose.
  */
@@ -28,7 +28,7 @@ public class SpecialCharacter implements IValidator {
 	}
 
 	/*
-	 * validate() is used to validate empty string . This method first checks
+	 * validate() is used to validate special character string . This method first checks
 	 * whether there is any other implementation of IValidator. If it found other
 	 * implementation then it invokes its validate() before its own validate()
 	 * 

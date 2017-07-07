@@ -13,7 +13,7 @@ import com.kodecamp.validation.api.ValidationResult;
 public class NullValidator implements IValidator {
 
 	/*
-	 * validate() takes object as argument checkes it whether is null or not if it
+	 * validate() takes object as argument checks it whether it is null or not if it
 	 * is null then it put Status FAIL and message or puts Status PASS.
 	 */
 
