@@ -1,5 +1,8 @@
 package com.kodecamp.validation.api;
 
+/*
+ * This is contract defined for setting status and message result after validation is done.
+ */
 
 
 public interface IValidationResult {
